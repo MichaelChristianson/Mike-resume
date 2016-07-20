@@ -156,24 +156,24 @@ hr {
 
 /* Header Wrap */
 #headerwrap {
-background: url(assets/img/IMG_0127.jpg)
- margin-top: 60px;
- padding-top:140px;
- text-align:center;
- background-size: contain;
- width: 100%;
-
+background: url(../img/IMG_0127.jpg) no-repeat center top;
+margin-top: 60px;
+padding-top: 140px;
+text-align: center;
+background-attachment: relative;
+background-position: center center;
+min-height: 900px;
+background-size: 100% 100%;
+width: 100%;
 -webkit-background-size: 100%;
 -moz-background-size: 100%;
 -o-background-size: 100%;
 background-size: 100%;
-
--webkit-background-size: contain;
--moz-background-size: contain;
--o-background-size: contain;
-background-size: contain;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
-
 
 
 
