@@ -156,9 +156,11 @@ hr {
 
 /* Header Wrap */
 #headerwrap {
- background: url(../img/IMG_0127.jpg)  center top;
+ background: url(../img/IMG_0127.jpg) no-repeat center top;
  margin-top: 60px;
  padding-top:140px;
+ margin-right: -100px;
+ margin-left: -100px;
  text-align:center;
  background-size: contain;
  width: 100%;
